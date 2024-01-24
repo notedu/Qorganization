@@ -1,0 +1,54 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@0,9..40;1,9..40&display=swap');
+/**/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+/*Header*/
+header {
+    margin: 1rem;
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+} header ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+} .links:hover {
+    text-decoration: underline;
+}
+
+/*Main*/
+main {
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} main #div-btn-notes {
+    display: flex;
+    gap: 5px;
+} main button {
+    padding: 3px 10px;
+    border: 1px solid rgb(88, 88, 88);
+    border-radius: 5px;
+    cursor: pointer;
+} main button:hover:enabled {
+    border-radius: 3px;
+}
+
+/*Footer*/
+footer {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+/*about.html*/
+.h2-main {
+    margin: 2rem 0 1rem;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!---->
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/style-js.css">
+        <link rel="stylesheet" href="./css/media.css">
+        <!---->
+        <title>Qorganization | notedu</title>
+        <!---->
+    </head>
+    <body>
+        <header>
+            <h1>Qorganization</h1>
+            <nav>
+                <ul style="list-style: none;">
+                    <li><a class="links" href="#">Home</a></li>
+                    <li><a class="links" href="./html/about.html">Sobre mim</a></li>
+                    <li><a class="links" href="https://github.com/notedu"><img src="./img/github-logo.png" alt="Github Logo" width="32px" height="32px"></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <label for="notes-textarea">Escreva suas ideias aqui: </label>
+            <textarea name="notes-textarea" id="notes-textarea" cols="30" rows="2" minlength="6" maxlength="85"></textarea>
+            <p>Os caracteres máximo são 85.</p>
+            <!---->
+            <div id="div-btn-notes">
+                <label for="btn-notes-submit"></label>
+                <button type="submit" id="btn-notes-submit">Enviar</button>
+                <!---->
+                <label for="btn-notes-remove"></label>
+                <button disabled="disabled" id="btn-notes-remove">Clique para remover a última nota</button>
+            </div>
+        </main>
+        <section id="notes"></section>
+        <!---->
+        <script src="script.js"></script>
+    </body>
+</html>

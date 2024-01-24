@@ -1,0 +1,16 @@
+#notes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.pgh-notes {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    width: auto;
+    height: 3rem;
+    text-align: center;
+    border-bottom-right-radius: 16px;
+}
