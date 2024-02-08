@@ -13,18 +13,19 @@
     </head>
     <body>
         <header>
+            <button id="theme"><img id="img-theme" src="./img/light-mode.png" alt="Theme Modes"></button>
             <h1>Qorganization</h1>
             <nav>
                 <ul style="list-style: none;">
                     <li><a class="links" href="#">Home</a></li>
-                    <li><a class="links" href="./html/about.html">Sobre mim</a></li>
-                    <li><a class="links" href="https://github.com/notedu"><img src="./img/github-logo.png" alt="Github Logo" width="32px" height="32px"></a></li>
+                    <li><a class="links" href="about.html">Sobre mim</a></li>
+                    <li><a class="links" href="https://github.com/notedu"><img id="img-github-logo" src="./img/github-logo.png" alt="Github Logo" width="32px" height="32px"></a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <label for="notes-textarea">Escreva suas ideias aqui: </label>
-            <textarea name="notes-textarea" id="notes-textarea" cols="30" rows="2" minlength="6" maxlength="85"></textarea>
+            <textarea style="resize: none;" name="notes-textarea" id="notes-textarea" cols="30" rows="2" minlength="6" maxlength="85"></textarea>
             <p>Os caracteres máximo são 85.</p>
             <!---->
             <div id="div-btn-notes">
@@ -37,6 +38,7 @@
         </main>
         <section id="notes"></section>
         <!---->
-        <script src="script.js"></script>
+        <script src="./js/script.js"></script>
+        <script src="./js/theme.js"></script>
     </body>
 </html>

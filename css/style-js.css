@@ -1,3 +1,9 @@
+:root {
+    --dark-theme-bgcolor: rgb(15, 14, 14);
+    --dark-theme-color: rgb(255, 255, 255);
+}
+/**/
+
 #notes {
     display: flex;
     justify-content: center;
@@ -13,4 +19,10 @@
     height: 3rem;
     text-align: center;
     border-bottom-right-radius: 16px;
+}
+
+/*Themes*/
+.dark {
+    background-color: var(--dark-theme-bgcolor);
+    color: var(--dark-theme-color);
 }

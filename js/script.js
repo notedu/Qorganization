@@ -15,7 +15,7 @@ btnNotes.addEventListener('click', () => {
             }, 1500);
         } else {
             const pghNotes = document.createElement("p");
-            pghNotes.setAttribute("class", "pgh-notes");
+            pghNotes.classList.add("pgh-notes");
             pghNotes.style.backgroundColor = bgColor[Math.floor(Math.random() * bgColor.length)];
             pghNotes.innerHTML += notesTextarea.value;
             notes.appendChild(pghNotes);
